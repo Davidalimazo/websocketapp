@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Socket</title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/lib/style.css">
+</head>
+<body>
+    <div class="title">AYD LIVE CHAT</div>
+    <ul id="messages"></ul>  
+    <div id="feedback"></div>  
+    <form id="form" action="">   
+        <input id="input2" autocomplete="off" />   
+        <input id="input" autocomplete="off" />
+        <button class="submit btn btn-primary">Send</button>  
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/js.js"></script>
+</body>
+</html>
